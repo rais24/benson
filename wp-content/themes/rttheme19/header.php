@@ -20,3 +20,7 @@
 <div id="container">   
 <?php do_action("rt_after_container"); ?> 
 <?php get_template_part("header", $GLOBALS['rt_layout'] ); ?>
+
+<?php if ( function_exists('yoast_breadcrumb') ) {
+yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+} ?>
