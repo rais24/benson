@@ -19,3 +19,8 @@ do_action("rt_content_container",array("action"=>"end","echo" => ! rt_is_compose
 </footer><!-- / end #footer -->
 
 </div><!-- / end #container --> 
+<script>
+$(document).ready(function(){
+       $('#loader').hide();
+});
+</script>

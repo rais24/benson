@@ -21,3 +21,9 @@ do_action("rt_content_container",array("action"=>"end","sidebar"=>$rt_global_var
 
 </div><!-- / end #right_side -->
 </div><!-- / end #container --> 
+
+<script>
+$(document).ready(function(){
+       $('#loader').hide();
+});
+</script>

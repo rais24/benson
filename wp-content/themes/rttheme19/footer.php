@@ -3,3 +3,9 @@
 <?php wp_footer(); ?>
 </body>
 </html>
+
+<script>
+$(document).ready(function(){
+       $('#loader').hide();
+});
+</script>

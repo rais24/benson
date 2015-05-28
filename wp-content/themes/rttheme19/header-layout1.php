@@ -1,4 +1,7 @@
-	<?php global $rt_global_variables; ?>
+	<?php global $rt_global_variables; 
+	
+	echo "<pre>"; print_r($rt_global_variables); exit;
+	?>
 
 	<!-- left side -->
 	<div id="left_side" class="fixed_position scroll classic active" data-parallax-effect="<?php echo esc_attr($rt_global_variables["page_left_parallax_effect"]) ?>">
