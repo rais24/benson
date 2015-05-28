@@ -20,4 +20,3 @@
 <div id="container">   
 <?php do_action("rt_after_container"); ?> 
 <?php get_template_part("header", $GLOBALS['rt_layout'] ); ?>
-
