@@ -5493,3 +5493,5 @@ table:not(.table):not(.ui-datepicker-calendar) > thead:first-child > tr:first-ch
     padding: 18px !important;
   }
 }
+
+ .heading-border{font-weight:bold!important; border-bottom:1px solid #008dd2; line-height:40px;} 
