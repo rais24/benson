@@ -125,22 +125,7 @@
 
 	<!-- main contents -->
 	<div id="main_content">
-	<?php
-	//echo $posts[0]->ID;
-	if($posts[0]->ID=='9' || $posts[0]->ID=='8' ){ ?>
-		<div style="background-color: #f0f0f0;" class="content_row row sub_page_header fullwidth">	
-			<div class="content_row_wrapper  default">
-				<div class="col col-sm-12">
-					<div class="breadcrumb">
-						<div itemscope=""><a href="<?php echo get_site_url();?>" itemprop="url" class="icon-home"><span title="BENSON MEDICAL">Home</span></a>
-						</div> 
-							<span class="icon-angle-right"></span>
-							<a href="<?php echo get_permalink(); ?>"><?php echo get_the_title(); ?></a> 
-					</div>
-				</div>
-			</div>
-		</div>
-	<?php } ?>
+
 	
 	
 	

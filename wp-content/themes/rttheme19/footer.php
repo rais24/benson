@@ -5,7 +5,7 @@
 </html>
 
 <script>
-$(document).ready(function(){
+/* $(document).ready(function(){
        $('#loader').hide();
-});
+}); */
 </script>

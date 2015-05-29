@@ -23,7 +23,9 @@ do_action("rt_content_container",array("action"=>"end","sidebar"=>$rt_global_var
 </div><!-- / end #container --> 
 
 <script>
-$(document).ready(function(){
-       $('#loader').hide();
-});
+/* jQuery(document).ready(function($) {
+       jQuery('#loader').hide();
+jQuery("#menu-item-2871").addClass("btn");
+jQuery('#navigation ul li:last').css("background-color", "yellow");
+)}; */
 </script>

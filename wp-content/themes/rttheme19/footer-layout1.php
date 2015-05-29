@@ -20,7 +20,7 @@ do_action("rt_content_container",array("action"=>"end","echo" => ! rt_is_compose
 
 </div><!-- / end #container --> 
 <script>
-$(document).ready(function(){
+/* $(document).ready(function(){
        $('#loader').hide();
-});
+}); */
 </script>
