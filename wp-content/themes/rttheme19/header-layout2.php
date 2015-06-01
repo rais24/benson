@@ -138,7 +138,51 @@
 		do_action( "rt_sub_page_header");
 
 	?>
-	 
+	 <?php
+
+if($post->ID=='2438'){?>
+<div class="shop-container">
+  <div class="shop-left-block">
+   <div class="img-div"><img src="http://localhost/benson/wp-content/uploads/2015/06/2.jpg" alt=""/></div>
+  
+    <div class="hover-container-left">
+      <div class="heading">NEW IN</div>
+      <div class="text-content">Lorem Ipsum is simply dummy text</div>
+      <div class="view-more">VIEW MORE</div>
+    </div>
+  </div>
+  
+  <div class="shop-right-div">    
+    <div class="inner-top-1">
+    <div class="img-div"><img src="http://localhost/benson/wp-content/uploads/2015/06/2.jpg" alt=""/></div>
+      <div class="hover-container">
+        <div class="heading">NEW ARRIVAL</div>       
+        <div class="view-more">VIEW MORE</div>
+      </div>
+    </div>
+    
+    <div class="inner-top-2">
+    <div class="img-div"><img src="http://localhost/benson/wp-content/uploads/2015/06/2.jpg" alt=""/></div>
+      <div class="hover-container">
+      
+        <div class="heading">NEW ARRIVAL</div>
+        
+        <div class="view-more">VIEW MORE</div>
+      </div>
+    </div>
+    
+    <div class="inner-bottom">
+    <div class="img-div"><img src="http://localhost/benson/wp-content/uploads/2015/06/1.jpg" alt=""/></div>
+      <div class="hover-container">
+        <div class="heading">NEW IN</div>
+        <div class="text-content">Lorem Ipsum is simply dummy text</div>
+        <div class="view-more">VIEW MORE</div>
+      </div>
+    </div>
+    
+  </div>ddddd
+</div>
+<?php } ?>
 	<?php 		
 		/**
 		 * Get page container
@@ -146,3 +190,4 @@
 		 */	
 		do_action("rt_content_container", array("action"=>"start", "sidebar"=>$rt_global_variables['sidebar_position'],"echo" => ! rt_is_composer_allowed(), "class" => $rt_global_variables["default_content_row_width"], "overlap" => ! $rt_global_variables["hide_page_title"] && ! $rt_global_variables["hide_breadcrumb_menu"] ) );
 	?>
+	

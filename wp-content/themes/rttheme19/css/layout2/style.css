@@ -3606,7 +3606,7 @@ img.aligncenter, .wp-caption.aligncenter, .imgeffect.aligncenter, .entry-thumbna
 /* responsive images */
 #container img {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
 }
 
 /* WP Captions */
@@ -4731,7 +4731,7 @@ input[type="button"] {
   border-color: red;
 }
 .rt_form .loading {
-  background: url(../images/loading.gif) center center no-repeat;
+  background: url(../../images/loading.gif) center center no-repeat;
   display: none;
   width: 40px;
   height: 45px;
@@ -5498,3 +5498,195 @@ table:not(.table):not(.ui-datepicker-calendar) > thead:first-child > tr:first-ch
 
  .heading-bold{font-weight:bold!important; color:#000!important; font-size:35px;}
   #main_content > .content_row.alt-style-1{ box-shadow:none;}
+.widget > ul > li a, .widget .menu > li a{display:block;}
+.owl-carousel .owl-stage-outer-testimonial{ margin:0 auto; width:80%;}
+.action_buttons{ display:none;}
+
+
+
+
+
+.shop-container {
+	max-width: 1130px;
+	margin: 0 auto;
+}
+.shop-left-block {
+	max-width: 273px;
+	height: 485px;	
+	width: 100%;
+	float: left;
+	position: relative;
+	
+}
+.hover-container-left {
+	position: absolute;
+	display:none;	
+	width: 197px;
+	margin: 0 auto;
+	top: 110px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding: 50px 40px;
+	height: 275px;
+	background:url(../../images/bg-color.png) repeat;
+}
+.shop-left-block .img-div{ height: 485px;
+    max-width: 100%;
+   }
+	
+.shop-left-block .img-div img{ height: 485px;
+    max-width: 100%;
+    position: relative;}
+.hover-container-left .heading {
+	font-size: 18px;
+	color: #000000;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+}
+.hover-container-left .text-content {
+	font-size: 18px;
+	color: #000000;
+	text-align: center;
+	font-family: Arial;
+	line-height: 20px;
+	margin-bottom: 25px;
+}
+.hover-container-left .view-more {
+	text-align: center;
+	background: #fff;
+	font-size: 18px;
+	color: #000;
+	width: 115px;
+	margin: 0 auto;
+	padding: 10px;
+	font-size: 12px;
+	font-family: Arial;
+	cursor: pointer;
+}
+.shop-right-div {
+	max-width: 815px;
+	height: 485px;
+	width: 100%;
+	float: right;
+	position: relative;
+}
+.shop-right-div .inner-top-1 {
+	max-width: 390px;
+	height: 220px;	
+	width: 100%;
+	float: left;
+	position:relative;
+}
+
+.shop-right-div .inner-top-1 .img-div{ height: 227px;
+    max-width: 100%;
+   }
+	
+.shop-right-div .inner-top-1 .img-div img{ height: 227px;
+    max-width: 100%;
+    position: relative;}
+	
+	.shop-right-div .inner-top-2 .img-div{ height: 227px;
+    max-width: 100%;
+   }
+	
+.shop-right-div .inner-top-2 .img-div img{ height: 227px;
+    max-width: 100%;
+    position: relative;}
+
+.hover-container {
+	display:none;
+	position: absolute;
+	width: 250px;
+	padding:10px;
+	top:28%;
+	left:19%;
+	margin: auto;	
+	background:url(../../images/bg-color.png) repeat;
+}
+.hover-container .heading {
+	font-size: 18px;
+	color: #000000;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;
+	line-height: 35px;
+}
+
+.hover-container .view-more {
+	text-align: center;
+	background: #fff;
+	font-size: 18px;
+	color: #000;
+	width: 115px;
+	margin: 0 auto;
+	padding: 10px;
+	font-size: 12px;
+	font-family: Arial;
+	cursor: pointer;
+}
+.shop-right-div .inner-top-2 {
+	position:relative;
+	max-width: 390px;
+	height: 220px;
+	background: #000;
+	width: 100%;
+	float: right;
+}
+.shop-right-div .inner-bottom {
+	position:relative;
+	max-width: 815px;
+	height: 227px;	
+	width: 100%;
+	float: right;
+	margin-top: 40px;
+}
+
+.shop-right-div .inner-bottom .img-div{ height: 227px;
+    max-width: 100%;
+   }
+	
+	.shop-right-div .inner-bottom .img-div img{ height: 227px;
+    max-width: 100%;
+    position: relative;}
+	
+.shop-right-div .inner-bottom .hover-container {
+	position: absolute;
+	width:400px;
+	padding:10px;
+	top:25%;
+	left:25%;
+	margin: auto;	
+	background:url(../../images/bg-color.png) repeat;
+}
+.shop-right-div .inner-bottom .hover-container .heading {
+	font-size: 18px;
+	color: #000000;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;
+	line-height: 25px;
+}
+.shop-right-div .inner-bottom .hover-container .text-content {
+	font-size: 18px;
+	color: #000000;
+	text-align: center;
+	font-family: Arial;
+	line-height:16px;
+	margin-bottom: 11px;
+}
+.shop-right-div .inner-bottom .hover-container .view-more {
+	text-align: center;
+	background: #fff;
+	font-size: 18px;
+	color: #000;
+	width: 115px;
+	margin: 0 auto;
+	padding: 10px;
+	font-size: 12px;
+	font-family: Arial;
+	cursor: pointer;
+}
