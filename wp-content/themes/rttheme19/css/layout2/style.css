@@ -5494,4 +5494,7 @@ table:not(.table):not(.ui-datepicker-calendar) > thead:first-child > tr:first-ch
   }
 }
 
- .heading-border{font-weight:bold!important; border-bottom:1px solid #008dd2; line-height:40px;} 
+ .heading-border{font-weight:bold!important; border-bottom:1px solid #008dd2; line-height:40px;}
+
+ .heading-bold{font-weight:bold!important; color:#000!important; font-size:35px;}
+  #main_content > .content_row.alt-style-1{ box-shadow:none;}
