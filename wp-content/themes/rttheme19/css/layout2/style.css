@@ -5500,6 +5500,7 @@ table:not(.table):not(.ui-datepicker-calendar) > thead:first-child > tr:first-ch
   #main_content > .content_row.alt-style-1{ box-shadow:none;}
 .widget > ul > li a, .widget .menu > li a{display:block;}
 .owl-carousel .owl-stage-outer-testimonial{ margin:0 auto; width:80%;}
+
 .action_buttons{ display:none;}
 
 

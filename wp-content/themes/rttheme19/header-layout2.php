@@ -106,6 +106,8 @@
 						}
 					?>    
 				</nav>
+				
+				<div style="cursor:pointer; float:left;"> <img src="<?php echo get_bloginfo('url');?>/wp-content/uploads/2015/06/shopbutton1.png" width="99" height="38" alt="" onMouseOver="jQuery(this).attr('src','<?php echo get_bloginfo('url');?>/wp-content/uploads/2015/06/shopbuttonhover.png');" onMouseOut="jQuery(this).attr('src','<?php echo get_bloginfo('url');?>/wp-content/uploads/2015/06/shopbutton1.png');"/> </div>
 		
 				<?php
 				/**
